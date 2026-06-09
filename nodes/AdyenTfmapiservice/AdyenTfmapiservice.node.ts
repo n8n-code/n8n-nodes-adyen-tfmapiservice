@@ -3,14 +3,14 @@ import { generalDescription } from './resources/general';
 
 export class AdyenTfmapiservice implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'adyen-tfmapiservice',
+		displayName: 'Adyen Tfmapiservice',
 		name: 'N8nDevAdyenTfmapiservice',
 		icon: { light: 'file:./adyen-tfmapiservice.svg', dark: 'file:./adyen-tfmapiservice.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'This API provides endpoints for managing your point-of-sale (POS) payment terminals. You can use the API to obtain information about a specific terminal, retrieve overviews of your terminals and st..',
-		defaults: { name: 'adyen-tfmapiservice' },
+		description: 'API manages POS terminals: retrieve terminal info and overviews.',
+		defaults: { name: 'Adyen Tfmapiservice' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

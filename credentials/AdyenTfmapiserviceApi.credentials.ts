@@ -8,7 +8,7 @@ import type {
 export class AdyenTfmapiserviceApi implements ICredentialType {
 	name = 'N8nDevAdyenTfmapiserviceApi';
 
-	displayName = 'adyen-tfmapiservice API';
+	displayName = 'Adyen Tfmapiservice API';
 
 	icon: Icon = { light: 'file:../nodes/AdyenTfmapiservice/adyen-tfmapiservice.svg', dark: 'file:../nodes/AdyenTfmapiservice/adyen-tfmapiservice.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AdyenTfmapiserviceApi implements ICredentialType {
 			default: 'https://postfmapi-test.adyen.com/postfmapi/terminal/v1',
 			required: true,
 			placeholder: 'https://postfmapi-test.adyen.com/postfmapi/terminal/v1',
-			description: 'The base URL of your adyen-tfmapiservice API server',
+			description: 'The base URL of your Adyen Tfmapiservice API server',
 		},
 		{
 			displayName: 'API Key',

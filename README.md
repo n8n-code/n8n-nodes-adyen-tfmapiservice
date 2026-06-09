@@ -53,9 +53,16 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| General | Post assign terminals, Post get the account or store of a terminal, Post get the stores of an account, Post get the details of a terminal, Post get the list of terminals |
+<details>
+<summary><b>General</b> (5 operations)</summary>
+
+- Post Assign terminals
+- Post Get the account or store of a terminal
+- Post Get the stores of an account
+- Post Get the details of a terminal
+- Post Get the list of terminals
+
+</details>
 
 ---
 
