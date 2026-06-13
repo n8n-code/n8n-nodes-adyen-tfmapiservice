@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-adyen-tfmapiservice",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "API manages POS terminals: retrieve terminal info and overviews.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-adyen-tfmapiservice",
